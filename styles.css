@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kavoon&display=swap');
+
+
+
+:root{
+  --teal: #4ca7c0;
+  --purple: #484fb7;
+  --lavender: #6b8fe7;
+  --yellow: #e9bb57;
+  --pink: #d9526f;
+  --dk-gray: #1e1e1e;
+  --white: #ffffff;  
+}
+
+*{
+    font-family: "inter", "arial", sans-serif;
+    font-size: 16px;
+}
+
+html {
+    background-color: var(--teal);
+}
+
+body{
+    max-width: 450px;
+    margin: 0 auto;
+    
+    background-color: var(--purple);
+}
+
+h1{
+    font-family: "kavoon", "Comic Sans MS", cursive;
+    font-size: 3em;
+}
+
+h2{
+    font-family: "kavoon", "Comic Sans MS", cursive;
+    font-size: 2em;
+}
+
+nav h2{
+    font-size: 1.5em;
+}
+
+h3{
+    font-size: 1.5em;
+}
+
+h4{
+    font-size: 1.15em;
+}
+
+.intro{
+    color: var(--white);
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    padding: 20px;
+}
+
+.intro p{
+    padding-bottom: 20px;
+}
+
+nav{
+    background-color: var(--yellow);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav ul{
+    background-color: var(--white);
+    padding-bottom: 20px;
+    list-style: none;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav li{
+    
+    color: var(--purple);
+    margin: 5px;
+    
+}
+
+nav li a{
+    padding: 10px;
+    margin: 10 auto;
+    
+}
