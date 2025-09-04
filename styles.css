@@ -114,7 +114,13 @@ div p{
     font-weight: 300;
 }
 
-
+section.choose{
+    background-color: var(--pink);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    padding-left: 20px;
+}
 
 
 
@@ -137,4 +143,44 @@ section tbody td {
   padding: 10px;
   text-align: center;
   background-color: var(--white);
+}
+
+section.step div{
+    background-color: var(--pink);
+    max-width: 450px;
+    margin: 0;
+    border-radius: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section.step a{
+    background-color: var(--white);
+    border-radius: 30px;
+    color: var(--dk-gray);
+    width: 80%;
+    display: block;
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+    margin: 10 auto;
+    box-shadow: 0 4px 10px var(--dk-gray);
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    color: var(--white);
+    font-size: 8px;
+    padding: 20px;
+}
+
+footer a{
+    color: var(--white);
+    font-size: 16px;
 }
